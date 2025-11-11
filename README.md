@@ -171,6 +171,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 > Made with ❤️ using [Next.js](https://nextjs.org)
-
-nt badge) for even more polish?
-```
