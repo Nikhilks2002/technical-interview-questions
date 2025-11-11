@@ -72,23 +72,30 @@ This project also uses [**Geist Font**](https://vercel.com/font) via the `next/f
 
 ## 🧱 Project Structure
 
-Below is the general structure of this project:
+Below is the updated structure of this project:
 
 ```
 ├── app/
-│   ├── layout.tsx          # Root layout (shared across all pages)
-│   ├── page.tsx            # Main homepage
-│   └── globals.css         # Global styles
+│   ├── favicon.ico         # App favicon
+│   ├── globals.css         # Global styles
+│   ├── layout.tsx          # Root layout (shared across pages)
+│   └── page.tsx            # Main homepage
 │
-├── public/                 # Static assets (images, icons, etc.)
+├── public/                 # Static assets (images, SVGs, etc.)
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
 │
-├── components/             # Reusable UI components
-│
-├── styles/                 # Additional styling (CSS Modules, etc.)
-│
+├── .gitignore
+├── README.md
+├── eslint.config.mjs       # ESLint configuration
+├── next.config.ts          # Next.js configuration
+├── package-lock.json
 ├── package.json
-├── tsconfig.json
-└── README.md
+├── postcss.config.mjs      # PostCSS configuration
+└── tsconfig.json           # TypeScript configuration
 ```
 
 ---
@@ -165,3 +172,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 > Made with ❤️ using [Next.js](https://nextjs.org)
 
+nt badge) for even more polish?
+```
